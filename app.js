@@ -86,3 +86,15 @@
 // };
 // const arrTest = [8, 4];
 // console.log(sum(...arrTest, 5, 9, 7, 1));
+
+// Short Circuiting
+
+// Example-1
+const itsWinter = true;
+const product = itsWinter && "Buy Hoddie";
+console.log(product);
+
+// Example-2
+const number = 0;
+const newNumber = number || 100;
+console.log(newNumber);
