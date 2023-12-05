@@ -102,13 +102,29 @@
 // for of  loop
 
 // Example-1
-const oddNumbers = [1, 3, 5, 9];
-for (const numbers of oddNumbers) {
-    console.log(numbers);
-};
+// const oddNumbers = [1, 3, 5, 9];
+// for (const numbers of oddNumbers) {
+//     console.log(numbers);
+// };
 
-// Example-2
-const myFriend = ["Ruhi", "Arnob", "Tom"];
-for (const friend of myFriend) {
-    console.log(friend);
+// // Example-2
+// const myFriend = ["Ruhi", "Arnob", "Tom"];
+// for (const friend of myFriend) {
+//     console.log(friend);
+// };
+
+// Optional Chaining
+
+const subjects = {
+    total: 5,
+    best: "Physics",
+    wellPerformed: {
+        markWise: "Chemistry",
+        skillWise: "Math",
+        creativity: {
+            indoor: "Karate",
+            outdoor: "Swimming",
+        },
+    },
 };
+console.log(subjects.wellPerformed.creativity.indoor.mark?.grade);
