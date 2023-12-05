@@ -50,3 +50,22 @@
 // };
 // const { animalName: petName, age: petAge, foods: [food1, food2], enemies: { enemy2: Disgusting } } = animal;
 // console.log(petName, petAge, food1, Disgusting);
+
+// Spreed Operator
+
+// Example-1
+const arr1 = [25, 30, 54];
+const arr2 = [59, 78, 13];
+const arr3 = [...arr1, ...arr2];
+console.log(arr3);
+
+// Example-2
+const obj1 = {
+    name: "Mimi",
+    roll: 24,
+};
+const obj2 = { ...obj1 }; // Spreed Operators Creat Different Memory For obj2
+obj2.name = "Lili";
+obj2.roll = 20;
+console.log(obj1);
+console.log(obj2);
