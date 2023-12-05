@@ -54,18 +54,35 @@
 // Spreed Operator
 
 // Example-1
-const arr1 = [25, 30, 54];
-const arr2 = [59, 78, 13];
-const arr3 = [...arr1, ...arr2];
-console.log(arr3);
+// const arr1 = [25, 30, 54];
+// const arr2 = [59, 78, 13];
+// const arr3 = [...arr1, ...arr2];
+// console.log(arr3);
 
-// Example-2
-const obj1 = {
-    name: "Mimi",
-    roll: 24,
-};
-const obj2 = { ...obj1 }; // Spreed Operators Creat Different Memory For obj2
-obj2.name = "Lili";
-obj2.roll = 20;
-console.log(obj1);
-console.log(obj2);
+// // Example-2
+// const obj1 = {
+//     name: "Mimi",
+//     roll: 24,
+// };
+// const obj2 = { ...obj1 }; // Spreed Operators Creat Different Memory For obj2
+// obj2.name = "Lili";
+// obj2.roll = 20;
+// console.log(obj1);
+// console.log(obj2);
+
+// Rest Pattern
+// const student = {
+//     name: "Sara",
+//     roll: 50,
+//     address: "Dhaka",
+// };
+// const { roll, ...rest } = student;
+// console.log(rest);
+
+// // Rest Parameter
+// function sum(a, b, ...args) {
+//     console.log(args);
+//     return a + b;
+// };
+// const arrTest = [8, 4];
+// console.log(sum(...arrTest, 5, 9, 7, 1));
