@@ -90,11 +90,25 @@
 // Short Circuiting
 
 // Example-1
-const itsWinter = true;
-const product = itsWinter && "Buy Hoddie";
-console.log(product);
+// const itsWinter = true;
+// const product = itsWinter && "Buy Hoddie";
+// console.log(product);
+
+// // Example-2
+// const number = 0;
+// const newNumber = number || 100;
+// console.log(newNumber);
+
+// for of  loop
+
+// Example-1
+const oddNumbers = [1, 3, 5, 9];
+for (const numbers of oddNumbers) {
+    console.log(numbers);
+};
 
 // Example-2
-const number = 0;
-const newNumber = number || 100;
-console.log(newNumber);
+const myFriend = ["Ruhi", "Arnob", "Tom"];
+for (const friend of myFriend) {
+    console.log(friend);
+};
